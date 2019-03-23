@@ -23,6 +23,39 @@
   color: #61dafb;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 100px;
+}
+
+input {
+  font-size: 100px;
+}
+
+input[type="radio"] {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+}
+
+.submitbutton {
+  margin-top: 10px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-left: 10px;
+}
+
+.display-preview-container {
+  margin-top: 10px;
+  border: 1px solid gray;
+  font-size: 100px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
