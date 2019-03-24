@@ -56,6 +56,30 @@ input[type="radio"] {
   font-size: 100px;
 }
 
+#counter-example {
+  border: 1px solid black;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 100px;
+  cursor: pointer;
+  width: 250px;
+  display: flex;
+}
+
+#counter-display {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.plus-minus {
+  border: 1px solid black;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
